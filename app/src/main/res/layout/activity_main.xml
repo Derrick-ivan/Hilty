@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/pic"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_marginTop="15dp"
+        android:text="CALCULATE ANY DATE IN MINUTES"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="10sp"
+        android:text="Select Date"
+        android:backgroundTint="#650505"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#844046"
+        android:layout_marginTop="20sp"
+        android:textSize="35sp"
+        />
+
+
+    <TextView
+        android:layout_width="151dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="20sp"
+        android:text="Selected Date"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvSelectedDateInMinute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#844046"
+        android:layout_marginTop="20sp"
+        android:textSize="35sp"
+        />
+
+    <TextView
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"
+        android:text="Age in minutes"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
